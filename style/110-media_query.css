@@ -1,0 +1,283 @@
+@media screen and (min-width: 320px) {
+    :root {
+        --sec-width: 320px;
+
+        --sec-heading: 1.45rem;
+        --font-size-h3: 1rem;
+        --font-size-h4: .85rem;
+        --font-size: .7rem;
+        --font-size-1: .6rem;
+
+        --font-miran: 1.75rem;
+        --font-hello: 1rem;
+
+        --hero-img-h: 200px;
+    }
+
+}
+
+@media screen and (min-width: 375px) {
+    :root {
+        --sec-width: 375px;
+        --hero-img-h: 230px;
+        --sec-heading: 1.5rem;
+    }
+
+
+}
+
+
+/* tablet */
+@media screen and (min-width: 425px) {
+    :root {
+        --sec-width: 425px;
+
+        --sec-heading: 1.75rem;
+
+        --font-size-h3: 1.4rem;
+        --font-size-h4: 1.3rem;
+        --font-size: .9rem;
+        --font-size-1: .7rem;
+
+        --font-miran: 2rem;
+        --font-hello: 1.1rem;
+        --hero-img-h: 250px;
+    }
+
+
+}
+
+/* laptop */
+@media screen and (min-width: 768px) {
+    :root {
+        --sec-width: 768px;
+
+        --sec-heading: 2.5rem;
+
+        --font-size-h3: 1.4rem;
+        --font-size-h4: 1.3rem;
+        --font-size: 1rem;
+        --font-size-1: .7rem;
+
+        --font-miran: 2.2rem;
+        --font-hello: 1.25rem;
+        --hero-img-h: 180px;
+
+        --nav-gap: 1rem;
+    }
+
+    .hero {
+        justify-content: center;
+    }
+
+    .hello {
+        width: 450px;
+        margin-right: 2rem;
+    }
+
+    .about-intro {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    :root {
+        --sec-width: 1024px;
+
+        --sec-heading: 3rem;
+
+        --font-size-h3: 1.6rem;
+        --font-size-h4: 1.5rem;
+        --font-size: 1.15rem;
+        --font-size-1: .85rem;
+
+        --font-miran: 3.5rem;
+        --font-hello: 1.65rem;
+
+        --nav-gap: 1.25rem;
+        --hero-img-h: 200px;
+    }
+
+    .hero {
+        justify-content: space-around;
+    }
+
+
+    .hello {
+        justify-content: start;
+        margin-right: 0;
+    }
+
+
+}
+
+@media screen and (min-width: 1310px) {
+    :root {
+        --sec-width: 1310px;
+
+        --sec-heading: 3.75rem;
+
+        --font-size-h3: 2rem;
+        --font-size-h4: 1.75rem;
+        --font-size: 1.35rem;
+        --font-size-1: 1rem;
+
+        --font-miran: 5rem;
+        --font-hello: 2.5rem;
+        --hero-img-h: 400px;
+
+        --nav-gap: 2rem;
+        --hero-img-h: 220px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    :root {
+        --sec-width: 1440px;
+        --nav-gap: 2rem;
+        --hero-img-h: 350px;
+    }
+}
+
+/* Max_Width */
+
+@media screen and (max-width: 319px) {
+    :root {
+        --sec-width: 90vw;
+
+        --sec-heading: 1.3rem;
+        --font-size-h3: .9rem;
+        --font-size-h4: .8rem;
+        --font-size: .65rem;
+        --font-size-1: .5rem;
+
+        --font-miran: 1.6rem;
+        --font-hello: 1rem;
+
+    }
+
+
+    .achievements {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card,
+    .achievement {
+        width: 70%;
+        aspect-ratio: .7;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hello {
+        justify-content: end;
+    }
+
+    .image {
+        width: 80%;
+    }
+
+    .connect {
+        padding: 0 .5rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    :root {
+        --nav-gap: 1rem;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 100vh;
+        width: 70vw;
+        position: fixed;
+        align-items: center;
+        top: 0;
+        right: -100%;
+        display: flex;
+
+    }
+
+    .navbar-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        width: 200px;
+        font-size: 1rem;
+
+        height: 50%;
+        border-radius: 2rem 0 0 2rem;
+        border: 1px solid var(--primary);
+        backdrop-filter: blur(100px);
+    }
+
+    .navbar-list li {
+        width: 100%;
+    }
+
+    .navbar-list span {
+        position: relative;
+        left: 50%;
+    }
+
+
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hello {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    main {
+        padding: 1rem;
+    }
+
+
+    .about-intro {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .about-me,
+    .about-me p,
+    .about-tech-intro {
+        max-width: 100%;
+        width: 90%;
+    }
+
+    .education-timeline {
+        gap: 2.5rem;
+    }
+
+    .achievements-heading {
+        font-size: 1.5rem;
+    }
+
+    .nav-toggle {
+        display: inline-block;
+    }
+}

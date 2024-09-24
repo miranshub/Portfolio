@@ -1,0 +1,144 @@
+:root {
+    --text: #dcedef;
+    --text-2: #92a3a5;
+    --background: #030607;
+    --primary: #8edae6;
+    --secondary: #117888;
+    --accent: #14d7f5;
+
+    --sec-heading: 3.75rem;
+    --sec-width: 100vw;
+    
+    --font-size-h3: 2rem;
+    --font-size-h4: 1.65rem;
+    --font-size: 1.35rem;
+    --font-size-1: 1rem;
+
+    --font-miran: 5rem;
+    --font-hello: 2.5rem;
+    --hero-img-h: 400px;
+
+    --nav-gap: 3rem;
+}
+
+.light-mode {
+    --text: #102123;
+    --text-2: #1c2525;
+    --background: #f8fbfc;
+    --primary: #196571;
+    --secondary: #77deee;
+    --accent: #0acdeb;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .3s ease;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    width: 100vw;
+
+    color: var(--text);
+    background-color: var(--background);
+    overflow: scroll;
+    font-size: var(--font-size);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+header {
+    height: 4rem;
+    width: 100vw;
+    padding: 1rem 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--text-2);
+    backdrop-filter: blur(10px);
+
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+main {
+    width: var(--sec-width);
+
+    position: relative;
+    top: 4rem;
+    overflow: scroll;
+
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    margin-bottom: 1rem;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-2);
+}
+a:hover {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+}
+
+h2 {
+    width: 100%;
+    font-size: var(--sec-heading);
+    color: var(--primary);
+    text-align: center;
+    /* margin-top: 3rem; */
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+}
+
+
+ul {
+    list-style: none;
+}
+
+.d-none {
+    display: none;
+}
+
+.primary {
+    color: var(--primary);
+}
+.primary-b {
+    color: var(--primary);
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+}
+
+
+.i {
+    font-style: italic;
+}
+.u {
+    text-decoration: underline;
+    text-underline-offset: .25rem;
+}
+

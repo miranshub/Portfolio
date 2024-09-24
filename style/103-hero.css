@@ -1,0 +1,96 @@
+.light-mode .hero-dark-mode {
+    display: none;
+}
+.dark-mode .hero-light-mode {
+    display: none;
+}
+
+.hero {
+    height: calc(100vh - 4rem);
+    width: var(--sec-width);
+    max-width: 1500px;
+
+    position: relative;
+    top: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.hello {
+    width: 90%;
+    aspect-ratio: 1.25;
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.hello-content {
+    display: inline-block;
+    font-size: var(--font-hello);
+
+    font-weight: 100;
+    line-height: 1.5em;
+}
+
+.miran {
+    display: inline-block;
+    color: transparent;
+    font-size: var(--font-miran);
+    font-weight: 600;
+    -webkit-text-stroke: 1px var(--primary);
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1.15em;
+
+    cursor: pointer;
+
+    padding: 0 .7rem;
+    
+    border-radius: 1rem;
+    
+}
+
+.miran:hover {
+    -webkit-text-stroke: 0;
+    color: var(--background);
+    background-color: var(--primary);
+}
+/* .miran:hover .miran::before {
+    content: "Md ";
+}
+.miran:hover .miran::after {
+    content: " Jawed";
+} */
+
+
+.dark-mode .image {
+    background: url(./../resources/hero-dark.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.light-mode .image {
+    background: url(./../resources/hero-light.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.image {
+    height: var(--hero-img-h);
+    aspect-ratio: 1.15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+}

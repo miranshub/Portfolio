@@ -1,0 +1,86 @@
+
+
+.me {
+    height: 100%;
+    display: flex;
+    gap: .5rem;
+}
+
+.my-logo {
+    height: 80%;
+    aspect-ratio: 1;
+    scale: .75;
+    cursor: pointer;
+}
+
+.me h3 {
+    color: var(--text);
+    font-size: var(--font-size);
+    cursor: pointer;
+    padding: 0.2rem .7rem;
+    
+    border-radius: .5rem;
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.me h3:hover {
+    color: var(--primary);
+}
+
+.navbar {
+    height: 100%;
+    font-size: var(--font-size-1);
+}
+
+.navbar-list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: var(--nav-gap);
+}
+
+.navbar-list-item:hover {
+    transform: translate(0, -4px);
+}
+
+.navbar-list a {
+    padding: .5rem 1rem;
+}
+
+.toggle-mode {
+    height: 16px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid var(--text-2);
+}
+
+.toggle-mode:hover {
+    border-color: var(--primary);
+}
+
+
+
+
+.nav-toggle {
+    height: 16px;
+    aspect-ratio: 1;
+    border: 3px solid var(--text-2);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 1rem;
+}
+
+.nav-toggle:hover,
+.nav-toggle:active {
+    border: 3px solid var(--primary);
+}
+.nav-toggle:active {
+    scale: .9;
+}

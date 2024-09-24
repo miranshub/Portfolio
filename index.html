@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./resources/logo.png">
+
+    <link rel="stylesheet" href="./style/101-style.css">
+    <link rel="stylesheet" href="./style/102-navbar.css">
+    <link rel="stylesheet" href="./style/103-hero.css">
+    <link rel="stylesheet" href="./style/104-about.css">
+    <link rel="stylesheet" href="./style/105-education.css">
+    <link rel="stylesheet" href="./style/106-project-card.css">
+    <link rel="stylesheet" href="./style/107-projects.css">
+    <link rel="stylesheet" href="./style/108-contact.css">
+    <link rel="stylesheet" href="./style/110-media_query.css">
+
+    <title>miran</title>
+</head>
+
+<body class="dark-mode">
+
+    <div class="cross"></div>
+
+    <header>
+        <div class="me">
+            <a href="#">
+                <img class="my-logo" src="./resources/logo.png" alt="logo">
+            </a>
+            <h3><a href="#">miran</a></h3>
+        </div>
+        <nav class="navbar" id="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-list-item"><a href="#about">About Me</a></li>
+                <li class="navbar-list-item"><a href="#education">Education</a></li>
+                <li class="navbar-list-item"><a href="#projects">Projects</a></li>
+                <!-- <li class="navbar-list-item"></li> -->
+                <li class="navbar-list-item"><a href="#contact">Contact Me</a></li>
+                <span class="toggle-mode" id="toggle-mode"></span>
+            </ul>
+        </nav>
+        <div class="nav-toggle" id="nav-toggle"></div>
+    </header>
+
+
+    <section class="hero">
+        <div class="hello">
+            <div class="hello-content">
+                hello world,<br> I am <h1 class="miran">Miran</h1>,<br> a passionate<br> <span class="primary">Software
+                    Developer.</span>
+            </div>
+        </div>
+        <div class="image">
+        </div>
+    </section>
+
+
+    <main>
+
+        <section class="about" id="about">
+            <h2 class="about-heading">About Me</h2>
+            <div class="about-intro">
+                <div class="about-me">
+                    <p>Greetings, I am <span><strong>Miran</strong></span>, a passionate <span>Electronics</span> and
+                        <span>Instrumentation Engineer</span> with a strong interest in <span>Software
+                            development</span> and a growing enthusiasm for <span>Machine Learning</span>.
+                    </p>
+                    <p>My eagerness to learn has led me to explore technologies across electronics, computer science,
+                        and mechanical engineering.</p>
+                </div>
+                <div class="about-tech-intro">
+                    <h3 class="about-tech-intro-heading">Skills</h3>
+                    <ul class="i">
+                        <li>Machine Learning</li>
+                        <li>Git/GitHub <span class="primary-b">(200+ Commits)</span></li>
+                        <li>Cloud Computing</li>
+                        <li>SQL, Data Base Management</li>
+                        <li>Web Developement <span class="primary-b">(10+ Projects)</span></li>
+                    </ul>
+                    <ul class="i">
+                        <li>IoT <span class="primary-b">(5+ Projects)</span></li>
+                        <li>Tinker Cad <span class="primary-b">(20+ Designs)</span></li>
+                        <li>3D Modeling <span class="primary-b">(2 Projects)</span></li>
+                        <li>PLC Designing <span class="primary-b">(1 Project)</span></li>
+                        <li>HMI Designing <span class="primary-b">(1 Project)</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="tech-me">
+                <div class="language-graph">
+                    <h3 class="language-graph-heading">Languages Known</h3>
+                    <div class="x-axis"></div>
+                    <div class="y-axis"></div>
+
+                    <ul>
+                        <li>
+                            <span>C++</span>
+                            <div class="bar-full">
+                                <div class="bar-length" style="height: 90%;"></div>
+                            </div>
+                            90%
+                        </li>
+                        <li>
+                            <span>C</span>
+                            <div class="bar-full">
+                                <div class="bar-length" style="height: 90%;"></div>
+                            </div>
+                            90%
+                        </li>
+                        <li>
+                            <span>Python</span>
+                            <div class="bar-full">
+                                <div class="bar-length" style="height: 70%;"></div>
+                            </div>
+                            70%
+                        </li>
+                        <li>
+                            <span>HTML</span>
+                            <div class="bar-full">
+                                <div class="bar-length" style="height: 75%;"></div>
+                            </div>
+                            75%
+                        </li>
+                        <li>
+                            <span>CSS</span>
+                            <div class="bar-full">
+                                <div class="bar-length" style="height: 70%;"></div>
+                            </div>
+                            70%
+                        </li>
+                        <li>
+                            <span>JS</span>
+                            <div class="bar-full">
+                                <div class="bar-length" style="height: 60%;"></div>
+                            </div>
+                            60%
+                        </li>
+                        <li>
+                            <span>IoT</span>
+                            <div class="bar-full">
+                                <div class="bar-length" style="height: 80%;"></div>
+                            </div>
+                            80%
+                        </li>
+                    </ul>
+
+                </div>
+            </div> -->
+        </section>
+
+        <section class="education" id="education">
+            <h2 class="education-heading">My Education</h2>
+            <ul class="education-timeline">
+                <li class="eie">
+                    <div class="degree">Bachelor of Technology in Electronics and Instrumentation Engineering </div>
+                    From
+                    <h4 class="institute i"><a href="https://www.ticollege.ac.in/" target="_blank"> Techno Main Salt
+                            Lake </a></h4>
+                    <div class="year"> (2021-2025) </div>
+                    <div class="score">8.00 CGPA</div>
+                    <div class="border"></div>
+                </li>
+                <li class="sss">
+                    <div class="degree">Senior Secondary Schooling </div> From
+                    <h4 class="institute i"><a href="https://sjv.edu.in/" target="_blank"> Shree Jain Vidyalaya </a>
+                    </h4>
+                    <div class="year"> (2020) </div>
+                    <div class="score">73.80%</div>
+                    <div class="border"></div>
+                </li>
+                <li class="ss">
+                    <div class="degree">Secondary Schooling </div> From
+                    <h4 class="institute i"><a href="https://en.wikipedia.org/wiki/Momin_High_School" target="_blank">
+                            Momin High School </a></h4>
+                    <div class="year"> (2018) </div>
+                    <div class="score">78.57%</div>
+                    <div class="border"></div>
+                </li>
+            </ul>
+
+            <div class="achievements">
+                <h2 class="achievements-heading">Achievements</h2>
+                <ul class="achievements-list">
+                    <li class="achievement">
+                        <div class="achievement-inner">
+                            <div class="achievement-front">
+                                <h4 class="achievement-heading">Intra 2023</h4>
+                                <p class="achievement-detail">Achieved 1st Runner Up Position in <span class="i u">Intra
+                                        2023</span>, the intra-college
+                                    tech
+                                    fest of Techno Main Salt Lake in 2023 for desiging Autonomus Robot</p>
+                            </div>
+                            <div class="achievement-back achievement-1">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="achievement">
+                        <div class="achievement-inner">
+                            <div class="achievement-front">
+                                <h4 class="achievement-heading">Juno 2023</h4>
+                                <p class="achievement-detail">Attained Runner-up position in <span class="i u">JUNO
+                                        2023</span>, an Arduino Coding
+                                    Competition at B.P. Poddar Institute of Technology in October 2023. </p>
+                            </div>
+                            <div class="achievement-back achievement-2">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="achievement">
+                        <div class="achievement-inner">
+                            <div class="achievement-front">
+                                <h4 class="achievement-heading">Fresher's Chess 2021</h4>
+                                <p class="achievement-detail">Achieved <span class="i u">Victory</span> in the Freshers
+                                    Chess Competition 2021, at
+                                    Techno Main Salt Lake, in November 2021</p>
+                            </div>
+                            <div class="achievement-back achievement-3">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="achievement">
+                        <div class="achievement-inner">
+                            <div class="achievement-front">
+                                <h4 class="achievement-heading">Intra 2022</h4>
+                                <p class="achievement-detail">Achieved 2st Runner Up Position in Intra, the intra-college
+                                    tech fest of Techno Main Salt Lake in 2023 for desiging Autonomus Robot</p>
+                            </div>
+                            <div class="achievement-back achievement-4">
+                                <span style="color: red;">Didn't had image, sorry</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="achievement">
+                        <div class="achievement-inner">
+                            <div class="achievement-front">
+                                <h4 class="achievement-heading">SIH 2023</h4>
+                                <p class="achievement-detail">Advanced to the Inter College Round in Smart India
+                                    Hackathon in 2023</p>
+                            </div>
+                            <div class="achievement-back achievement-5">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2 class="projects-heading">My Projects</h2>
+
+            <div class="projects-grid">
+
+
+                <div class="card">
+                    <div class="project-img project-img-1">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__title">Portfolio Website</p>
+                        <p class="card__description">Architectured and implemented a responsive web application to
+                            visually showcase professional skills and accomplishments.
+                            Elevated online presence and enhanced overall professional branding</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-img project-img-2">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__title">Number Puzzle</p>
+                        <p class="card__description">A trminal based Number Puzzle Game which was written in C, later on
+                            the tech stack was changed to C++.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-img project-img-3">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__title">Smart Door Lock</p>
+                        <p class="card__description">Spearheaded the development of an IoT-driven smart door lock
+                            system, leveraging RFID technology for secure access management.
+                            Incorporated cloud functionalities for real-time monitoring and management.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-img project-img-4">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__title">UNO Game</p>
+                        <p class="card__description">A representation of logic building, A game which can be ran on some
+                            terminal, was written on C++.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-img project-img-5">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__title">Smart Car Parking System</p>
+                        <p class="card__description">A merger of hardware and software, with the help of embedded
+                            system, helps avoiding collision while parking your car.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-img project-img-6">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__title">Traffic Signal Control</p>
+                        <p class="card__description">A PLC Ladder diagram designed for controlling the Traffic Signla
+                            Lighta, also designed Human Machine Interface.</p>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="project-img project-img-7">
+                    </div>
+                    <div class="card__content">
+                        <p class="card__title">Line Follower Bot</p>
+                        <p class="card__description">Robot programmed to follow a line strip on surface, this can be
+                            used in industries to reduce workload from humans.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="contact" id="contact">
+        <h2 class="contact-me-heading">Contact Me</h2>
+        <div class="contact-me">
+            <div class="connect">
+                <h3 class="connect-me-heading">Connect</h3>
+                <ul class="conect-list">
+                    <li class="connect-list-item">
+                        <div class="connect-list-item-1">
+                            <div class="connect-logo">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <span class="connect-method">Email: </span>
+                        </div>
+                        <div class="connect-list-item-2">
+                            <span class="connect-method-value"><a
+                                    href="mailto:miranjawed415.tech@gmail.com">miranjawed415.tech@gmail.com</a></span>
+                        </div>
+
+                    </li>
+                    <li class="connect-list-item">
+                        <div class="connect-list-item-1">
+                            <div class="connect-logo">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <span class="connect-method">Phone: </span>
+                        </div>
+                        <div class="connect-list-item-2">
+                            <span class="connect-method-value">+91 xxxxxxxxxx</span>
+                        </div>
+
+                    </li>
+                    <li class="connect-list-item">
+                        <div class="connect-list-item-1">
+                            <div class="connect-logo">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <span class="connect-method">Location: </span>
+                        </div>
+                        <div class="connect-list-item-2">
+                            <span class="connect-method-value"><a href="https://maps.app.goo.gl/27TtcjRki6exDCRn7" target="_blank">Kolkata, India</a></span>
+                        </div>
+
+                    </li>
+                    <li class="connect-list-item">
+                        <div class="connect-list-item-1">
+                            <div class="connect-logo">
+                                <i class="fa-solid fa-language"></i>
+                            </div>
+                            <span class="connect-method">Languages: </span>
+                        </div>
+                        <div class="connect-list-item-2">
+                            <span class="connect-method-value">English, Hindi, Urdu, Spanish, Bengali, Arabic.</span>
+                        </div>
+
+                    </li>
+                    <li class="connect-list-item connect-social">
+                        <div class="linkedin"> <a href="https://www.linkedin.com/in/md-miran-jawed-277972222/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="github"> <a href="https://github.com/miranshub" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="instagram"> <a href="https://www.instagram.com/idle_miran/" target="_blank">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="messege">
+                <form id="feedbackForm" action="https://formspree.io/f/mgvwjlll" method="POST">
+
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject of your feedback" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here"
+                            required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <script src="./js/301-script.js"></script>
+    <script src="./js/302-form.js"></script>
+</body>
+
+</html>
