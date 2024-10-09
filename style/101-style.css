@@ -1,10 +1,12 @@
 :root {
     --text: #dcedef;
     --text-2: #92a3a5;
+    --text-3: #0c1111;
+    --text-4: #1c2020;
     --background: #030607;
     --primary: #8edae6;
     --secondary: #117888;
-    --accent: #14d7f5;
+    --accent: #14d7f5; 
 
     --sec-heading: 3.75rem;
     --sec-width: 100vw;
@@ -107,7 +109,6 @@ h2 {
     font-size: var(--sec-heading);
     color: var(--primary);
     text-align: center;
-    /* margin-top: 3rem; */
     margin-bottom: 2rem;
 }
 
@@ -141,4 +142,3 @@ ul {
     text-decoration: underline;
     text-underline-offset: .25rem;
 }
-

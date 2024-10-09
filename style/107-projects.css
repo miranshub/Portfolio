@@ -20,30 +20,12 @@
     align-items: center;
 }
 
-.project-img-1 {
-    background: url(./../resources/Projects/1.png);
-}
-.project-img-2 {
-    background: url(./../resources/Projects/2.png);
-}
-.project-img-3 {
-    background: url(./../resources/Projects/3.png);
-}
-.project-img-4 {
-    background: url(./../resources/Projects/4.png);
-}
-.project-img-5 {
-    background: url(./../resources/Projects/5.png);
-}
-.project-img-6 {
-    background: url(./../resources/Projects/6.jpg);
-}
-.project-img-7 {
-    background: url(./../resources/Projects/7.jpg);
+.project-img img {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
-.project-img {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+

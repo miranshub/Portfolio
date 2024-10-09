@@ -119,7 +119,6 @@
     position: absolute;
     width: calc(100% - 15rem);
     height: 90%;
-    /* bottom: 1rem; */
     left: 10rem;
     display: flex;
     justify-content: space-evenly;

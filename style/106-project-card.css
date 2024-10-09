@@ -51,8 +51,12 @@
 .card__title {
   margin: 0;
   font-size: 24px;
-  color: #333;
   font-weight: 700;
+  color: var(--text-3);
+}
+.card__title a{
+  color: var(--text-3);
+  text-underline-offset: .1em;
 }
 
 .card:hover .project-img {
@@ -62,6 +66,6 @@
 .card__description {
   margin: 10px 0 0;
   font-size: 14px;
-  color: #777;
+  color: var(--text-4);
   line-height: 1.4;
 }

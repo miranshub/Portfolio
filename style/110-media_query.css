@@ -13,16 +13,39 @@
 
         --hero-img-h: 200px;
     }
+    
+    .about-tech-intro {
+        justify-content: start;
+    }
+
+    
+    .connect {
+        padding: 0.1rem .2rem;
+    }
 
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 365px) {
     :root {
         --sec-width: 375px;
         --hero-img-h: 230px;
-        --sec-heading: 1.5rem;
+
+        
+        --sec-heading: 2rem;
+
+        --font-size-h3: 1.6rem;
+        --font-size-h4: 1.5rem;
+        --font-size: 1.15rem;
+        --font-size-1: .9rem;
+
+        --font-miran: 2.6rem;
+        --font-hello: 1.3rem;
     }
 
+    .connect {
+        width: 360px;
+        padding: 0.25rem .35rem;
+    }
 
 }
 
@@ -32,19 +55,32 @@
     :root {
         --sec-width: 425px;
 
-        --sec-heading: 1.75rem;
-
-        --font-size-h3: 1.4rem;
-        --font-size-h4: 1.3rem;
-        --font-size: .9rem;
-        --font-size-1: .7rem;
-
-        --font-miran: 2rem;
-        --font-hello: 1.1rem;
         --hero-img-h: 250px;
+
+
+        
+        --sec-heading: 2.1rem;
+
+        --font-size-h3: 1.7rem;
+        --font-size-h4: 1.6rem;
+        --font-size: 1.25rem;
+        --font-size-1: 1rem;
+
+        --font-miran: 2.7rem;
+        --font-hello: 1.4rem;
     }
 
 
+
+}
+
+@media screen and (min-width: 523px) {
+    :root {
+        --sec-width: 530px;
+    }
+    .about-tech-intro {
+        justify-content: center;
+    }
 }
 
 /* laptop */
@@ -78,6 +114,17 @@
     .about-intro {
         flex-direction: row;
         align-items: start;
+    }
+
+    
+    .achievements-list {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-rows: repeat(auto, 310px);
+    }
+
+    .achievement {
+        width: clamp(190px, 210px, 230px);
+        overflow: scroll;
     }
 
     .nav-toggle {
@@ -178,6 +225,10 @@
         margin-left: 0;
         margin-right: 0;
     }
+    
+    .connect {
+        padding: 0.25rem .35rem;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -189,8 +240,12 @@
         width: 80%;
     }
 
-    .connect {
-        padding: 0 .5rem;
+    .connect-list {
+        gap: .25rem;
+    }
+
+    .connect-method {
+        padding-right: .1rem;
     }
 }
 
@@ -201,6 +256,14 @@
 
     .hero {
         flex-direction: column;
+        justify-content: center;
+    }
+    .image {
+    }
+    .hello {
+        aspect-ratio: 1.75;
+    }
+    .hello-content {
     }
 
     .navbar {
@@ -270,14 +333,39 @@
     }
 
     .education-timeline {
-        gap: 2.5rem;
+        gap: 2rem;
+    }
+    .education-timeline li {
+        line-height: 1.35rem;
     }
 
     .achievements-heading {
         font-size: 1.5rem;
     }
 
+    .achievements-list {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-rows: repeat(auto, 170px);
+    }
+
+    .achievement {
+        width: clamp(150px, 155px, 170px);
+        overflow: scroll;
+    }
+
+    .languages {
+        border: 1px solid red;
+        align-self: flex-start;
+        height: 200%;
+    }
+
     .nav-toggle {
         display: inline-block;
+    }
+
+    .download-cv {
+        padding: .5rem 1rem;
+        margin-bottom: 1.9rem;
+        font-size: var(--font-size);
     }
 }

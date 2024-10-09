@@ -94,3 +94,25 @@
     position: relative;
 
 }
+.download-cv {
+    display: inline-block;
+    border: 1px solid var(--text-2);
+    border-radius: 1rem;
+    padding: 0 1rem;
+    font-size: var(--font-size-1);
+    margin-top: 1rem;
+    position: relative;
+    color: var(--);
+}
+
+.download-cv:hover {
+    color: var(--background);
+    border-color: var(--text);
+    background-color: var(--text);
+    text-decoration: none;
+    /* transform: translate(0, 4px); */
+}
+
+.download-cv:active {
+    transform: translate(0, 8px);
+}
