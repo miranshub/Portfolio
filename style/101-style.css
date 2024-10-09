@@ -76,11 +76,12 @@ header {
     z-index: 2;
 }
 
+
 main {
     width: var(--sec-width);
 
     position: relative;
-    top: 4rem;
+    /* top: 4rem; */
     overflow: scroll;
 
     padding-left: 5rem;

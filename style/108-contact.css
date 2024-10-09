@@ -28,7 +28,7 @@
 .connect {
     min-width: 30em;
     padding: 2rem 2rem;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     backdrop-filter: blur(25px);
     border-radius: 2em;
 }
@@ -45,7 +45,7 @@
     flex-direction: column;
     gap: 1rem;
     width: 100%;
-    font-size: var(--font-size);
+    font-size: var(--font-size-1);
 }
 
 .connect-list-item {

@@ -354,7 +354,6 @@
     }
 
     .languages {
-        border: 1px solid red;
         align-self: flex-start;
         height: 200%;
     }

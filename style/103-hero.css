@@ -16,8 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-
 }
 
 .hello {
@@ -98,11 +96,11 @@
     display: inline-block;
     border: 1px solid var(--text-2);
     border-radius: 1rem;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     font-size: var(--font-size-1);
     margin-top: 1rem;
     position: relative;
-    color: var(--);
+    color: var(--text-2);
 }
 
 .download-cv:hover {
